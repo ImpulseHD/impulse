@@ -111,9 +111,8 @@ body .physiquechimie, body .math, body .francais, body .histoiregeo, body .vide 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #03a9f4 !important;
-  color: red;
-  font-size: 30px;
+  color: #03a9f4;
+  font-size: 39px;
   font-family: "Nerko One";
 }
 /* END PHYSIQUE & CHIMIE */
