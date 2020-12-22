@@ -1,4 +1,7 @@
-/* LOADER */
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+/* FONT END */
+/* INDEX HTML*/
 * {
   margin: 0;
   padding: 0;
@@ -49,9 +52,9 @@ body {
     transform: scale(0);
   }
 }
-/* END LOADER */
+/* END INDEX HTML */
 /* MAIN HTML */
-a {
+.matiere {
   margin: 0;
   color: white;
   text-decoration: none;
@@ -63,7 +66,7 @@ a {
   border-radius: 35px;
   transition: 1s;
 }
-a h1 {
+.matiere h1 {
   font-family: monospace;
   font-size: 30px;
   font-weight: 700;
@@ -73,7 +76,7 @@ a h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-a:hover {
+.matiere:hover {
   color: white;
   text-decoration: none;
   cursor: pointer;
@@ -98,6 +101,19 @@ body .physiquechimie, body .math, body .francais, body .histoiregeo, body .vide 
   background: url(https://www.clg-simone-veil-pontoise.fr/images/site/administration/disciplines/site/histoire-geo.png);
 }
 .vide {
-  background: url(https://image.freepik.com/vecteurs-libre/erreur-effet-pepin-ecran-erreur-404-page-non-trouvee_143407-1.jpg);
+  background: url(https://www.traducta.fr/wp-content/uploads/2015/10/coming-soon-logo_okok.jpg);
 }
 /* END MAIN HTML */
+/* PHYSIQUE & CHIMIE */
+.physiquechimiechap1 p {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #03a9f4 !important;
+  color: red;
+  font-size: 30px;
+  font-family: "Nerko One";
+}
+/* END PHYSIQUE & CHIMIE */
