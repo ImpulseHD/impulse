@@ -1,3 +1,4 @@
+/* LOADER */
 * {
   margin: 0;
   padding: 0;
@@ -48,11 +49,14 @@ body {
     transform: scale(0);
   }
 }
+/* END LOADER */
+/* MAIN HTML */
 a {
+  margin: 0;
   color: white;
   text-decoration: none;
   cursor: pointer;
-  width: 500px;
+  width: 400px;
   height: 400px;
   background-color: rgba(0, 0, 0, 0.7);
   border: 10px solid #03a9f4;
@@ -63,6 +67,11 @@ a h1 {
   font-family: monospace;
   font-size: 30px;
   font-weight: 700;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 a:hover {
   color: white;
@@ -70,17 +79,16 @@ a:hover {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.5);
 }
-a h1 {
-  text-align: center;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-body .physiquechimie {
-  background-size: contain;
+body .matiere {
+  background-size: cover;
+  background-position: center;  
   background-repeat: no-repeat;
+
 }
 .physiquechimie {
   background: url(https://groupe-reussite.fr/wp-content/uploads/2019/06/physique-chimie-1024x683.jpg);
 }
+.math {
+  background: url(https://image.freepik.com/vecteurs-libre/tableau-maths_23-2148177094.jpg);
+}
+/* END MAIN HTML */
