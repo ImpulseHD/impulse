@@ -79,7 +79,7 @@ a:hover {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.5);
 }
-body .matiere {
+body .physiquechimie, body .math, body .francais, body .histoiregeo, body .vide {
   background-size: cover;
   background-position: center;  
   background-repeat: no-repeat;
@@ -90,5 +90,14 @@ body .matiere {
 }
 .math {
   background: url(https://image.freepik.com/vecteurs-libre/tableau-maths_23-2148177094.jpg);
+}
+.francais {
+  background: url(https://www.campusfrance.org/sites/default/files/styles/mobile_visuel_principal_page/public/Fotolia_61499274_Subscription_Monthly_M_0.jpg?itok=nHoadRi5);
+}
+.histoiregeo {
+  background: url(https://www.clg-simone-veil-pontoise.fr/images/site/administration/disciplines/site/histoire-geo.png);
+}
+.vide {
+  background: url(https://image.freepik.com/vecteurs-libre/erreur-effet-pepin-ecran-erreur-404-page-non-trouvee_143407-1.jpg);
 }
 /* END MAIN HTML */
