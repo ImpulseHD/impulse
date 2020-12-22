@@ -1,5 +1,5 @@
 /* FONT */
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
 /* FONT END */
 body {
   background: #03a9f4;
@@ -36,11 +36,14 @@ body {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.5);
 }
-body .physiquechimie, body .math, body .francais, body .histoiregeo, body .vide {
+body .physiquechimie,
+body .math,
+body .francais,
+body .histoiregeo,
+body .vide {
   background-size: cover;
-  background-position: center;  
+  background-position: center;
   background-repeat: no-repeat;
-
 }
 .physiquechimie {
   background: url(https://groupe-reussite.fr/wp-content/uploads/2019/06/physique-chimie-1024x683.jpg);
@@ -72,13 +75,39 @@ body .physiquechimie, body .math, body .francais, body .histoiregeo, body .vide 
 header h1 {
   text-align: center;
   font-family: "Nerko One";
-  padding-top: 5vh;
-  font-size: 4.5vw;
+  font-size: 4em;
+  /* padding-top: 5vh;
+  font-size: 4.5vw; */
 }
 header h2 {
   text-align: center;
   font-family: "Nerko One";
-  padding-top: 2.5vh;
-  font-size: 3.5vw;
+  font-size: 3em;
+  /* padding-top: 2.5vh;
+  font-size: 3.5vw; */
+}
+@media only screen and (max-width: 1062px) {
+  header h1 {
+    font-size: 3em;
+  }
+  header h2 {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 796px) {
+  header h1 {
+    font-size: 2em;
+  }
+  header h2 {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 531px) {
+  header h1 {
+    font-size: 1em;
+  }
+  header h2 {
+    font-size: 0.5em;
+  }
 }
 /* END PHYSIQUE & CHIMIE */
