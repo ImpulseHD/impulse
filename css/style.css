@@ -70,13 +70,13 @@ body .physiquechimie, body .math, body .francais, body .histoiregeo, body .vide 
   font-family: "Nerko One";
 }
 header h1 {
-  margin: auto;
+  text-align: center;
   font-family: "Nerko One";
-  font-size: 50px;
+  font-size: 3vw;
 }
 header h2 {
-  margin: auto;
+  text-align: center;
   font-family: "Nerko One";
-  font-size: 40px;
+  font-size: 2vw;
 }
 /* END PHYSIQUE & CHIMIE */
