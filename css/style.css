@@ -72,11 +72,11 @@ body .physiquechimie, body .math, body .francais, body .histoiregeo, body .vide 
 header h1 {
   text-align: center;
   font-family: "Nerko One";
-  font-size: 4vw;
+  font-size: 4.5vw;
 }
 header h2 {
   text-align: center;
   font-family: "Nerko One";
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 /* END PHYSIQUE & CHIMIE */
